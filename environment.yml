@@ -1,0 +1,11 @@
+name: mnist
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.8.10
+    - pip=21.1.3
+    - pip:
+        - tensorflow-gpu==2.5.0
+        - kfp==1.6.6
+        - kfserving==0.6.0
